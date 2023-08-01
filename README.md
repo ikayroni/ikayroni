@@ -1,36 +1,115 @@
-<h2 align="center" > Saudações 👋!</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu Nome - Chatbot Developer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
 
+    header {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
 
-<h3 align="center"> Bem vindos ao meu perfil!!!🥰 </h3>
- 
- <p >💬<samp>Meu nome é Kayron dos Santos Ribeiro.</p>
- <p><samp> A ciência de hoje é a tecnologia de amanhã. 💜</p>
+    h1 {
+      margin-bottom: 1rem;
+    }
 
- <div>
-     <a href="https://github.com/ikayroni">
-     <img align="center" height="160em" src="https://github-readme-stats.vercel.app/api?username=ikayroni&show_icons=true&theme=gotham&include_all_commits=true&count_private=true&custom_title=Kayron dos Santos"/>
-     <img align="center" height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ikayroni&layout=compact&langs_count=16&theme=gotham&custom_title=Linguagens e Frameworks">
-<div>
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
 
- 
- ### 💻 Linguagens e Frameworks
-<div style="display: inline_block">
-  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg">
- 
-</div>
-  <br>
- 
-  
- 
- <div>
-    <img align="right" alt="Her-yoda" height="300px" width="350px"src="https://i0.wp.com/terminaldeinformacao.com/wp-content/uploads/2019/01/01_keyboard.gif?ssl=1">
- </div>
-  
-<div align="down"> 
-   <a href = "mailto: ikayroni10@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" ></a>
-   <a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>  
-</div>
+    p {
+      margin-bottom: 1.5rem;
+    }
+
+    .languages {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .language-badge {
+      padding: 0.5rem 1rem;
+      border: 1px solid #007BFF;
+      border-radius: 4px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .projects {
+      margin-top: 2rem;
+    }
+
+    .project {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .project h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    .project p {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Seu Nome</h1>
+    <p>Chatbot Developer Senior</p>
+    <div class="languages">
+      <a href="#" class="language-badge">Python</a>
+      <a href="#" class="language-badge">JavaScript</a>
+      <a href="#" class="language-badge">Node.js</a>
+      <a href="#" class="language-badge">PHP</a>
+      <a href="#" class="language-badge">HTML</a>
+      <a href="#" class="language-badge">CSS</a>
+      <a href="#" class="language-badge">SQL</a>
+    </div>
+  </header>
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        Olá! Sou um desenvolvedor de chatbots experiente, com vasto conhecimento em Python, JavaScript, Node.js, PHP, HTML e CSS. Minha paixão é criar soluções interativas e eficientes, oferecendo aos usuários uma experiência única.
+      </p>
+      <p>
+        Tenho experiência em trabalhar com grandes empresas, como Grupo Comolatti e Sicoob, onde participei de projetos de sucesso, desenvolvendo chatbots inovadores para melhorar o atendimento ao cliente e a eficiência das operações.
+      </p>
+    </section>
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Chatbot Platform - Grupo Comolatti</h3>
+        <p>
+          Desenvolvi uma plataforma de chatbots personalizada para o Grupo Comolatti, permitindo que eles automatizassem o atendimento ao cliente, fornecendo respostas rápidas e precisas para perguntas frequentes.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Sicoob Assistant</h3>
+        <p>
+          Criei um assistente virtual para o Sicoob, permitindo que os membros da cooperativa bancária obtivessem informações sobre seus serviços, taxas e fizessem consultas de saldo de forma simples e interativa.
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
