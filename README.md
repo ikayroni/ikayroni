@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seu Nome - Chatbot Developer</title>
+  <title>Kayron dos Santos - Dev Fullstack Especialista em Chatbots</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -35,80 +35,80 @@
       margin-bottom: 1.5rem;
     }
 
-    .languages {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-
-    .language-badge {
-      padding: 0.5rem 1rem;
-      border: 1px solid #007BFF;
-      border-radius: 4px;
-      color: #007BFF;
-      text-decoration: none;
-    }
-
-    .projects {
+    .section {
       margin-top: 2rem;
     }
 
-    .project {
-      background-color: #fff;
-      border: 1px solid #ddd;
+    .section h2 {
+      margin-bottom: 1rem;
+    }
+
+    .section p {
+      margin-bottom: 1rem;
+    }
+
+    .emoji {
+      font-size: 1.2rem;
+      margin-right: 0.3rem;
+    }
+
+    .highlight {
+      background-color: #ffe700;
+      padding: 0.2rem 0.4rem;
       border-radius: 4px;
-      padding: 1rem;
-      margin-bottom: 1rem;
-    }
-
-    .project h3 {
-      margin-bottom: 0.5rem;
-    }
-
-    .project p {
-      margin-bottom: 1rem;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Seu Nome</h1>
-    <p>Chatbot Developer Senior</p>
-    <div class="languages">
-      <a href="#" class="language-badge">Python</a>
-      <a href="#" class="language-badge">JavaScript</a>
-      <a href="#" class="language-badge">Node.js</a>
-      <a href="#" class="language-badge">PHP</a>
-      <a href="#" class="language-badge">HTML</a>
-      <a href="#" class="language-badge">CSS</a>
-      <a href="#" class="language-badge">SQL</a>
-    </div>
+    <h1>Kayron dos Santos <span class="emoji">💻</span></h1>
+    <p>Dev Fullstack Especialista em Chatbots <span class="emoji">🚀</span></p>
   </header>
   <main>
-    <section class="about">
-      <h2>About Me</h2>
+    <section class="section">
+      <h2>Resumo Profissional <span class="emoji">👨‍💼</span></h2>
       <p>
-        Olá! Sou um desenvolvedor de chatbots experiente, com vasto conhecimento em Python, JavaScript, Node.js, PHP, HTML e CSS. Minha paixão é criar soluções interativas e eficientes, oferecendo aos usuários uma experiência única.
+        Sou um desenvolvedor Fullstack especializado em Chatbots, apaixonado por criar soluções inovadoras que facilitam a vida dos usuários. Tenho ampla experiência em desenvolvimento de sistemas de agendamento e carteirização através de WhatsApp e Google Sheets, integrados com bancos de dados MySQL. Também sou especialista em integrações via API REST e conexão por banco de dados, trabalhando com tecnologias como Oracle, MySQL, SQL Server, PostgreSQL e MongoDB. Possuo conhecimento em várias funções do AWS, incluindo S3, SES e áudio transcriptor para projetos de Chatbots. Com experiência como Chatbot Developer Senior na EZ Chatbot desde 2022, fui responsável pelo desenvolvimento e ativação de diversos chatbots de diferentes segmentos. Além disso, atuei no suporte do ERP Magic, desenvolvendo aplicações em C# como funções adicionais no ERP dos clientes.
       </p>
       <p>
-        Tenho experiência em trabalhar com grandes empresas, como Grupo Comolatti e Sicoob, onde participei de projetos de sucesso, desenvolvendo chatbots inovadores para melhorar o atendimento ao cliente e a eficiência das operações.
+        Tenho experiência em desenvolvimento de APIs em Python para diversas funcionalidades, incluindo a geração de boletos bancários, a criação e envio de arquivos XLSX para o e-mail do cliente, entre outras soluções personalizadas para atender às necessidades dos projetos.
       </p>
     </section>
-    <section class="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Chatbot Platform - Grupo Comolatti</h3>
-        <p>
-          Desenvolvi uma plataforma de chatbots personalizada para o Grupo Comolatti, permitindo que eles automatizassem o atendimento ao cliente, fornecendo respostas rápidas e precisas para perguntas frequentes.
-        </p>
-      </div>
-      <div class="project">
-        <h3>Sicoob Assistant</h3>
-        <p>
-          Criei um assistente virtual para o Sicoob, permitindo que os membros da cooperativa bancária obtivessem informações sobre seus serviços, taxas e fizessem consultas de saldo de forma simples e interativa.
-        </p>
-      </div>
+    <section class="section">
+      <h2>Projetos Desenvolvidos <span class="emoji">🛠️</span></h2>
+      <ul>
+        <li>
+          Sistema de Agendamento via WhatsApp e Banco de Dados MySQL <span class="emoji">📅📱💻</span> - Integração de agendamento via WhatsApp com painel de gestor para alterações no banco de dados.
+        </li>
+        <li>
+          Sistema de Carteirização de Clientes pelo Google Sheets e MySQL <span class="emoji">🗃️📊💼</span> - Sistema de carteirização de clientes integrado ao banco de dados MySQL, permitindo manipulação dos dados através do Google Sheets e atualização automática.
+        </li>
+        <li>
+          Integrações via API REST e Conexão com Bancos de Dados <span class="emoji">🔗🗄️</span> - Experiência com integrações através de API REST e conexões com diferentes bancos de dados, incluindo Oracle, MySQL, SQL Server, PostgreSQL e MongoDB.
+        </li>
+        <li>
+          Desenvolvimento de NPS para Empresas do Ramo de Maquinários Agrícolas <span class="emoji">🚜📊</span> - Criação de NPS (Net Promoter Score) para algumas das maiores empresas do setor agrícola.
+        </li>
+        <li>
+          Sistema de Agendamento de Revisão Automotiva via WhatsApp e Google Sheets <span class="emoji">🚗🔧📅💬💻</span> - Sistema de agendamento de revisão automotiva com integração ao banco de dados MySQL e possibilidade de gestão pelo Google Sheets.
+        </li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>Experiência Profissional <span class="emoji">🏢</span></h2>
+      <p>
+        <span class="highlight">EZ Chatbot</span> - Chatbot Developer Senior
+      </p>
+      <p>
+        Atuo na empresa desde 2022, onde sou responsável pelo desenvolvimento, ativação e treinamento de chatbots de diversos segmentos.
+      </p>
+      <p>
+        <span class="highlight">Projeto</span> - Programador de Sistema da Informação
+      </p>
+      <p>
+        Durante 2021, atuei no suporte do ERP Magic e também desenvolvi pequenas aplicações em C# como funções adicionais no ERP dos clientes.
+      </p>
     </section>
   </main>
 </body>
